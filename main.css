@@ -1,0 +1,309 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.hero{
+    height: 50px;
+}
+/**Hero Section**/
+span.Olivia{
+    margin-left: 82px;
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+    z-index: -1;
+}
+.paragraph1{
+    padding: 15px;
+}
+input[type="search"]{
+    background-image: url("search.svg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 17px;
+    width: 75%;
+    height: 30px;
+    font-size: 17px;
+    padding: 0 15px;
+    outline: none;
+    border: none;
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
+    position: relative;
+    z-index: -1;
+}
+.2ndparagh{
+    margin-left: 85px;
+    position: fixed;
+}
+/** Image hero section **/
+img.nav-bar{
+    width: 6%;
+    height: 6%;
+    float: right;
+}
+.links a{
+    color: black;
+    background-color: #f9f9f9;
+    padding: 14px 16px;
+    transform: translate(84%, 63%);
+    border-bottom: 1px solid silver;
+    text-decoration: none;
+    font-size: 15px;
+    width: 45%;
+    height: 100%;
+    display: none;
+    transition: 0.5s;
+}
+a.linked{
+    color: black;
+    background-color: #f9f9f9;
+    padding: 14px 16px;
+    transform: translate(84%, 60%);
+    border: none;
+    text-decoration: none;
+    font-size: 15px;
+    width: 45%;
+    height: 100%;
+    display: none;
+    transition: 0.5s;
+}
+a.homes{
+    color: black;
+    background-color: #f9f9f9;
+    padding: 14px 16px;
+    transform: translate(84%, 60%);
+    border-bottom: 1px solid silver;
+    text-decoration: none;
+    font-size: 15px;
+    width: 45%;
+    height: 100%;
+    display: none;
+    transition: 0.5s;
+    text-align: right;
+}
+.drip:hover a{
+    display: block;
+    transform: translate(84%, 30%);
+    z-index: -1;
+    padding: 18px 20px;
+}
+
+img.profile-pics{
+    height: 26px;
+    width: 26px;
+    border-radius: 13px;
+    float: left;
+    position: relative;
+    z-index: -1;
+}
+.drop-down:hover .thecontent a{
+    display: block;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+    overflow: scroll;
+    width: 45%;
+    height: 100%;
+    transition:  0.5s ease;
+}
+
+a.switch{
+    color: black;
+    background-color: white;
+    padding: 14px 16px;
+    transform: translate(70%, 20%);
+    border-bottom: 1px solid silver;
+    text-decoration: none;
+    font-size: 15px;
+    width: 50%;
+    height: 100%;
+    display: none;
+    transition: 0.5s;
+}
+a.switchs{
+    color: black;
+    background-color: white;
+    padding: 14px 16px;
+    transform: translate(70%, 20%);
+    border-bottom: none;
+    text-decoration: none;
+    font-size: 15px;
+    width: 50%;
+    height: 100%;
+    display: none;
+    transition: 0.5s ease;
+}
+a.switch, .switchs:hover{
+    transition: 0.5s;
+}
+img.itune{
+    width: 8%;
+    height: 8%;
+    float: right;
+    margin-right: 35px;
+    padding-top: 1px;
+    background-color: #f9f9f9;
+    padding: 1px 2px;
+    border-radius: 5px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);  
+    position: relative;
+    z-index: -1;
+}
+
+/**Categories Section**/
+h4{
+    margin-left: 7px;
+    padding-top: 7px;
+}
+h4.drift{
+    margin-left: 10px;
+}
+.categories{
+    display: flex;
+    flex-wrap: no-wrap;
+    overflow: scroll;
+    padding: 8px;
+}
+.categories>div{
+    width: 95px;
+    margin: 5px;
+    line-height: 20px;
+    background-color: #f9f9f9;
+    color: black;
+    padding: 9px;
+    border-radius: 5px;
+}
+div.active{
+    background-color: Dodgerblue;
+    color: white;
+}
+.categories>div:hover{
+    background-color: Dodgerblue;
+    color: white;
+}
+
+/*** Piano Sessions ***/
+.top-courses{
+   padding: 3px 0px 3px 0px; 
+}
+.Piano-sessions{
+    display: flex;
+    flex: no-wrap;
+}
+.Piano-sessions>div{
+    width: 100%;
+    background-color: rgba(0,0,0,0.2);
+    padding: 15px;
+    margin: 5px;
+    color: black;
+    border-radius: 6px;    
+}
+span.jazz{
+    margin-left: 6px;
+    font-size: 18px;
+    font-weight: 600;
+}
+span.names{
+    margin-left: 8px;
+    font-size: 15px;
+    font-weight: 0;
+}
+img.pictures{
+    width: 34px;
+    height: 34px;
+    border-radius: 17px;
+    float: left;
+}
+img.love{
+    width: 15px;
+    height: 15px;
+    float: right;
+}
+
+/*** Other Courses **/
+.together{
+    background-color: #f9f9f9;
+    padding: 5px;
+}
+.images{
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex: 2;
+    padding: 0px;
+    margin-left: 0px;
+}
+.images>div{
+    width: 47%;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin: 5px;
+    color: black;
+    border-radius: 0px 0px 4px 4px;  
+    height: 200px;
+}
+img.piano{
+    width: 100%;
+    height: 120px;
+    border-radius: 0px 0px 7px 7px;  
+}
+span.numbers{
+    font-size: 15px;
+    margin-left: 7px;
+    font-weight: 550;
+}
+span.lovers{
+    float: right;
+    margin-right: 6px;
+}
+span.lovers:hover{
+    color: white;
+}
+span.progress{
+    float: left;
+    margin-left: 7px;
+    font-size: 15px;
+    font-weight: 550;
+}
+.center{
+    padding: 6px;
+}
+.inputted{
+    margin-left: 30px;
+    padding: 40px 0px 20px 0px;
+}
+.flex-containers{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    wrap: no-wrap;
+    flex: 3;
+    background-color: white;
+    justify-content: space-between;    
+}
+.flex-containers>div{
+    padding: 10px;
+    margin: 7px;
+}
+.names{
+    display: flex;
+    
+}
+img.transfers{
+    width: 26px;
+    height: 26px;
+}
+img.transfer{
+    width: 21px;
+    height: 21px;
+}
+span.notify a{
+    align-items: center;
+    text-align: center;
+    font-size: 15px;
+    color: black;
+}
+a.services{
+    text-decoration: none;
+}
