@@ -5,6 +5,7 @@ body{
     font-family: verdana;
     background: linear-gradient(white,red,white);
     height: 95vh;
+    font-family: verdana;
 }
 .center{
     position: absolute;
